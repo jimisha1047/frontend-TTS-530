@@ -1,0 +1,29 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+
+  /* Navigation bar */
+    .navbar {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    .navbar a {
+      display: inline-block;   /* horizontal links */
+      color: white;
+      text-decoration: none;   /* remove underline */
+      padding: 10px 20px;
+      background-color: #444;
+      margin: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #ff6600; /* hover effect */
+      color: white;
+    }

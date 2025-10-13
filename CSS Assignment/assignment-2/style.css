@@ -1,0 +1,33 @@
+/* Apply background color for entire webpage */
+body {
+  background-color: #f0f0f0; /* light gray */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Section common styles */
+div {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Gradient background for Introduction */
+.introduction {
+  background: linear-gradient(to right, #0066cc, #33ccff);
+}
+/* Solid background for Content */
+.content {
+  background-color: rgb(60, 179, 113); /* medium sea green */
+}
+
+/* Solid background for Footer */
+.footer {
+  background-color: #ff9966; /* orange shade */
+}
+
+

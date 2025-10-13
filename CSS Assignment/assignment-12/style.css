@@ -1,0 +1,57 @@
+  :root {
+      --primary-color: #007bff;
+      --accent-color: #ff6b6b;
+      --bg-color: #f8f9fa;
+      --text-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary-color);
+    margin-top: 30px;
+    }
+
+    section {
+      background: #fff;
+      margin: 20px auto;
+      padding: 25px;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+.animation-box {
+      width: 100px;
+      height: 100px;
+      background-color: var(--accent-color);
+      border-radius: 10px;
+      margin: 30px auto;
+      animation: moveBox 4s infinite alternate ease-in-out;
+    }
+
+    @keyframes moveBox {
+      0% {
+        transform: translateX(0);
+        background-color: var(--accent-color);
+      }
+      50% {
+        background-color: #ffcc00;
+      }
+      100% {
+        transform: translateX(300px);
+        background-color: var(--primary-color);
+      }
+    }
+

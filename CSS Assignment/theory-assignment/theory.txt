@@ -1,0 +1,55 @@
+Que-1) explain the difference between inline , internal and external css.
+answer - (A) Inline CSS: Styles are written directly inside an element’s style attribute.
+  Example: <h1 style="color: red;">Hello</h1>
+  Quick for single element changes but not reusable.
+
+(B) internal CSS: Styles are written inside the <style> tag in the HTML file’s <head>.
+  Example:
+html
+  <style>
+      h1 { color: red; }
+</style>
+   
+   ood for single-page projects.
+
+(C) External CSS: Styles are written in a separate .css file and linked using <link>.
+  Example:
+
+  html
+  <link rel="stylesheet" href="style.css">
+  
+
+Best for large projects, reusable across multiple pages.
+  
+
+
+
+Que-2) describe CSS Selectors and list the types of selectors?
+Answer- 1)Element Selector → targets all elements of a type. Example: p { color: blue; }
+2)Class Selector → targets elements with a specific class. Example: .text { font-size: 16px; }
+3)ID Selector → targets a unique element with an ID. Example: #title { text-align: center; }
+4)Universal Selector (*) → applies to all elements.
+5)Group Selector (,) → applies to multiple selectors at once. Example: h1, p { color: black; }
+6)Descendant Selector → targets nested elements. Example: div p { color: green; }
+7)pseudo element-selector →  A pseudo-element selector styles a specific part of an element that is not explicitly defined in the HTML structure. Example: p::first-line {
+                               color: blue;                 
+                             }
+8)pseudo class selector → A pseudo-class selector styles an element based on its state or position within the document tree. Pseudo-classes start with a single colon :.
+ Example: a:hover {
+            color: red;
+          }
+
+9)combinator selector → Combinator selectors define the relationship between other selectors, allowing for more complex selections.
+10)combinator adjacent selector → The adjacent sibling combinator + selects an element that is immediately preceded by another specified element. Example: h1 + p {
+                             margin-top: 20px;
+                            }
+11)combinator parent-child selector → The child combinator > selects elements that are direct children of another specified element. Example: div > p {
+                   font-weight: bold;
+                  }
+12)attributes selector → An attribute selector selects elements based on the presence or value of their HTML attributes.
+Example: input[type="text"] {
+  border: 1px solid gray;
+}
+
+
+
