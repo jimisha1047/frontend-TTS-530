@@ -1,0 +1,93 @@
+Q-1) difference between HTML & HTML5?
+Ans - HTML
+      html stands for hypertext markup language.
+      html is used to make a website homepage & webpage.
+      html provides some tags to create a website structured.
+      html provides a basic structures to create a homepage or webpage for website.
+
+html structure is also called....
+      A) structure of html
+      b) boiler plate of html
+      c) skelton of html
+
+
+html file extension .html or .htm 
+html is not any language it is a markup language that can be load on browers only.
+html first time release in 1986 by tim berner lee.
+
+types of html tags:
+html tags are provides structures and enclosed within <> angular brackets.
+
+A) paired tags 
+   paired tags are tag that can be used to start and close i.e. called paired tags.
+   examples - <p></p> | <h1></h1> | <b></b> | <marquee></marquee> 
+
+B) non - paired tags 
+   non - paired tags are tag that can be used to start and but not need to closed i.e. called non - paired tags.
+   examples - <br> | <hr> | <input> | <img> | <meta> | <link> 
+
+
+
+ HTML 5  
+      html5 is advanced version of html4 
+      html5 support some advanced tags taht is called ...
+      html5 start from <!DOCTYPE html> it is support all html5 tags in broswers.
+
+      html5 is used for media tags 
+          examples : <video> | <audio> | <svg>  | <canvas>
+      html is sort to descrived 
+        examples : a)  <link rel='stylesheet'  media='screen' href='main.css'>
+                   b) <style></style>
+                   c) <script type="text/javascript"></script>
+  
+        
+
+ a) structured based tag or (semantic tags)
+      exampls : <header>
+              <nav>
+              <section>
+              <aside> 
+              <hgroup>
+              <footer>
+                
+     semantic tags: <form>
+                    <table>
+                    <div>
+                    <iframe>
+                    <farmeset>
+
+ b) content type of tag
+
+                    <mark>
+                    <em>
+                    <details>
+                    <summary>
+                    <date>
+                    <input type="range">
+                    <input type="date">
+                    <input type="datetime">
+                    <progress>
+                    <audio>
+                    <video>
+                    <svg>
+                    <canvas>
+                    <meter>
+                    <datalist>
+                    <strong>
+                    
+
+   Q-2) What are the additional tag used in HTML5 ?
+   Structural Tags: <header>, <footer>, <nav>, <article>, <section>, <aside>
+
+   Media Tags: <audio>, <video>, <source>
+
+   Graphics Tags: <canvas>, <svg>
+
+   Form Tags: <datalist>, <output>, <progress>, <meter>
+
+   Semantic Tags: <main>, <figure>, <figcaption>, <mark>            
+
+
+
+                
+                

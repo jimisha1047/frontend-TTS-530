@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 5 - HTML5 Lab Assignment</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+
+    section {
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 80%;
+      max-width: 700px;
+    }
+
+    video, audio {
+      margin-top: 10px;
+      width: 80%;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    canvas, svg {
+      margin-top: 15px;
+      border: 2px solid #0077cc;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML5 Lab Assignment</h1>
+
+  <!-- Audio & Video Section -->
+  <section>
+    <h2>🎵 Audio and 🎬 Video Example</h2>
+    <p><strong>Audio:</strong></p>
+    <audio controls autoplay muted loop>
+      <source src="audio/audio.wav" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p><strong>Video:</strong></p>
+    <video controls autoplay muted loop>
+      <source src="video/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Canvas Section -->
+  <section>
+    <h2>🎨 Canvas Shape Example</h2>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+  </section>
+
+  <!-- SVG Section -->
+  <section>
+    <h2>🧩 SVG Shape Example</h2>
+    <svg width="300" height="200">
+      <rect x="20" y="20" width="100" height="60" fill="#0077cc" />
+      <circle cx="200" cy="70" r="40" fill="#ff6600" />
+      <text x="100" y="150" font-size="18" fill="#333">HTML5 SVG Shape</text>
+    </svg>
+  </section>
+
+  <script>
+    // Canvas drawing
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#0077cc";
+    ctx.fillRect(20, 20, 100, 60);
+
+    ctx.beginPath();
+    ctx.arc(200, 70, 40, 0, Math.PI * 2);
+    ctx.fillStyle = "#ff6600";
+    ctx.fill();
+
+    ctx.font = "18px Poppins";
+    ctx.fillStyle = "#333";
+    ctx.fillText("HTML5 Canvas Shape", 40, 150);
+  </script>
+
+</body>
+</html>
